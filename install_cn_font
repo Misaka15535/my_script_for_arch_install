@@ -8,9 +8,9 @@ package+=" adobe-source-han-sans-cn-fonts"
 #　简体中文紧凑字型格式衬线体
 package+=" adobe-source-han-serif-cn-fonts"
 # 中文字型
-package+=" noto"
+#package+=" noto"
 # Noto CJK-SC 简体中文字型
-package+=" noto-fonts-sc"
+#package+=" noto-fonts-sc"
 
 
 # 文泉驿字型
@@ -26,24 +26,24 @@ package+=" wqy-bitmapfont"
 # 文字字体
 
 # Kaiti（笔触）Unicode 字体（建议启用抗锯齿）
-package+=" ttf-arphic-ukai"
+#package+=" ttf-arphic-ukai"
 #指定（印刷）Unicode 字体
-package+=" ttf-arphic-uming"
+#package+=" ttf-arphic-uming"
 #新的 Sung字体，以前是 ttf-fireflysung 包
-package+=" opendesktop-fonts"
+#package+=" opendesktop-fonts"
 # 中文和越南语 ttf 字体 台湾中华民国教育部标准字体
-package+=" ttf-hannom"
+#package+=" ttf-hannom"
 
 # Windows中文字体
 
 # windows8 简体中文字体。
-package+=" ttf-ms-win8-zh_cn"
+#package+=" ttf-ms-win8-zh_cn"
 
 # windows10 简体中文字体。
-package+=" ttf-ms-win10-zh_cn"
+#package+=" ttf-ms-win10-zh_cn"
 
 #强调旧式字体的 CJK 衬线字体。
-package+=" ttf-i.bming"
+#package+=" ttf-i.bming"
 
 # 台湾
 
@@ -67,4 +67,5 @@ package+=" ttf-i.bming"
 #　香港中文紧凑字型格式衬线体
 #package+=" adobe-source-han-serif-hk-fonts"
 
-yay -S $package
+#yay -S $package
+sudo pacman -S $package
