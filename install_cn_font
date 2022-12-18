@@ -1,0 +1,70 @@
+package=
+
+
+#思源体
+
+#　简体中文紧凑字型格式无衬线体
+package+=" adobe-source-han-sans-cn-fonts"
+#　简体中文紧凑字型格式衬线体
+package+=" adobe-source-han-serif-cn-fonts"
+# 中文字型
+package+=" noto"
+# Noto CJK-SC 简体中文字型
+package+=" noto-fonts-sc"
+
+
+# 文泉驿字型
+
+# WenQuanYi Micro Hei 字体（即 Hei，Gothic 或 Dotum）是一个由 Droid Sans Fallback 来的无衬线体轮廓字型，它有高质 CJK 字型且极度紧凑（～５Ｍ）。
+package+=" wqy-microhei"
+# 有宋体在内的黑体轮廓字型（有韩文和部分日文的支援）。
+package+=" wqy-zenhei"
+# 点阵宋体字型。
+package+=" wqy-bitmapfont"
+
+
+# 文字字体
+
+# Kaiti（笔触）Unicode 字体（建议启用抗锯齿）
+package+=" ttf-arphic-ukai"
+#指定（印刷）Unicode 字体
+package+=" ttf-arphic-uming"
+#新的 Sung字体，以前是 ttf-fireflysung 包
+package+=" opendesktop-fonts"
+# 中文和越南语 ttf 字体 台湾中华民国教育部标准字体
+package+=" ttf-hannom"
+
+# Windows中文字体
+
+# windows8 简体中文字体。
+package+=" ttf-ms-win8-zh_cn"
+
+# windows10 简体中文字体。
+package+=" ttf-ms-win10-zh_cn"
+
+#强调旧式字体的 CJK 衬线字体。
+package+=" ttf-i.bming"
+
+# 台湾
+
+#　繁体中文紧凑字型格式无衬线体
+#package+=" adobe-source-han-sans-tw-fonts"
+#　繁体中文紧凑字型格式衬线体
+#package+=" adobe-source-han-serif-tw-fonts"
+# 台湾教育部启宋繁体中文字体
+#package+=" ttf-tw"
+# 台湾政府教育部中文TrueType字体，支持CNS11643标准，包括启宋字体。
+#package+=" ttf-twcns-fonts"
+# Noto CJK-TC 繁体中文字型
+#package+=" noto-fonts-tc"
+# windows8 繁体中文字体。
+#package+=" ttf-ms-win8-zh_tw"
+# windows10 繁体中文字体。
+#package+=" ttf-ms-win10-zh_tw"
+
+#　香港中文紧凑字型格式无衬线体
+#package+=" adobe-source-han-sans-hk-fonts"
+#　香港中文紧凑字型格式衬线体
+#package+=" adobe-source-han-serif-hk-fonts"
+
+yay -S $package
